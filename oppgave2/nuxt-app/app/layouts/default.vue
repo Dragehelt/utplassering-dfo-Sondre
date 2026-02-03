@@ -1,5 +1,8 @@
-<template>
+<template class="bg-slate-500">
   <navbar />
-  <slot />
-  <default-footer />
+  <div class="pt-25">
+    <slot />
+
+    <default-footer />
+  </div>
 </template>

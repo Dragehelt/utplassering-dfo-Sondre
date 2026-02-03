@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-500 h-screen">
-    <p>Welcome to page</p>
+  <div class="min-h-screen">
+    <h2 class="text-5xl text-center p-25 font-bold">Welcome to page</h2>
   </div>
 </template>
