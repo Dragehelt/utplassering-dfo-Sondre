@@ -2,5 +2,5 @@
 @import "@nuxt/ui";
 
 body {
-    background-color: var(--color-slate-500);
+    background-color: var(--color-gray-300);
 }

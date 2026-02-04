@@ -1,11 +1,12 @@
 <template>
   <nav
-    class="bg-slate-700 flex h-25 items-center justify-between p-5 text-gray-300 fixed w-full"
+    class="bg-slate-600
+     flex h-25 items-center justify-between p-5 text-white fixed w-full "
   >
-    <h1 class="font-bold text-5xl text-gray-300">Site</h1>
+    <h1 class="font-bold text-5xl">The Page</h1>
     <ul class="flex space-x-12 text-2xl">
       <li><a href="/">Home</a></li>
-      <li><a href="/list">List</a></li>
+      <li><a href="/users">Users</a></li>
       <li><a href="/api">Api</a></li>
     </ul>
   </nav>

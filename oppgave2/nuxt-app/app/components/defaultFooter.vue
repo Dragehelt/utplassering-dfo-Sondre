@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div
-      class="bg-slate-600 flex h-20 items-center justify-center p-5 text-gray-300 bottom-0 left-0 w-full text-"
+      class="bg-gray-300 flex h-20 items-center justify-center p-5 text-black bottom-0 left-0 w-full border-t-2 border-black"
     >
       <div>
         <p class="100vw text-center">{{ username }}</p>

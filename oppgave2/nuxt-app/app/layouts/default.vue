@@ -1,4 +1,4 @@
-<template class="bg-slate-500">
+<template>
   <navbar />
   <div class="pt-25">
     <slot />
