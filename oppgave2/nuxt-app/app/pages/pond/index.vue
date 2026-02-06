@@ -33,7 +33,6 @@
         v-if="!handsFull"
         class="border-black border-2 rounded-2xl text-3xl p-2 bg-slate-600 text-white font-bold"
         @click="
-          // refreshData();
           duckPickedUp();
           visible = !visible;
         "
@@ -67,7 +66,7 @@ function duckPickedUp() {
 const refreshData = async () => {
   await refresh();
 };
-const { data, refresh, pending } = await useFetch("/api/fetch");
+const { data, refresh } = await useFetch("/api/fetch");
 if (!data) {
   throw new Error("no data");
 }
