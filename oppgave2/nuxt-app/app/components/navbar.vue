@@ -7,7 +7,7 @@
     <ul class="flex space-x-12 text-2xl">
       <li><a href="/">Home</a></li>
       <li><a href="/users">Users</a></li>
-      <li><a href="/api">Api</a></li>
+      <li><a href="/pond">Pond</a></li>
     </ul>
   </nav>
 </template>
